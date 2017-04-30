@@ -1,0 +1,165 @@
+/* Main CSS */
+
+/* Top Nav */
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+
+ /* background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;*/
+}
+
+
+.top-nav {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+
+.nav-link {
+  font-size: 18px;
+  padding: 0 6px;
+}
+
+/* Search Form Div */
+
+
+.center {
+text-align: center;
+}
+
+
+.big-logo {
+  max-height: 210px;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+
+.logo {
+  height: 210px;
+  width: 200px;
+}
+
+
+.rl-logo {
+  display: inline-block;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+
+.rl-logo h1 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+/* Search Nav Div */
+
+
+.nav-search {
+  margin-left: 300px;
+}
+
+
+.list-search {
+  margin-left: 250px;
+}
+
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+
+.search-section input {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+
+.search-section .search-button {
+  font-size: 17px;
+  width: 37px;
+  height: auto;
+  padding: 2px 6px 3px 6px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+.search-button {
+  vertical-align: bottom;
+}
+
+
+.magnifying-glass-icon {
+  height: 100%;
+}
+
+/* Search list Div */
+
+.pages {
+  display: inline-block;
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+
+.listings {
+  padding: 0;
+}
+
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}

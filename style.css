@@ -1,0 +1,26 @@
+* {
+  /*box-sizing: border-box;*/
+}
+body {
+	background-color: rgb(247, 247, 247);
+	/* margin: 0; */
+    padding: 80px;
+
+    font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: steelblue;
+}
+a:active {
+  color: yellowgreen;
+}
+a:visited {
+  color: black;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
